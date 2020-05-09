@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 400px;
+    height:400px;
+    background-color: lightcoral;
+    position: absolute;
+    top: 50px;
+    left: 500px;
+}
+
+.form{
+    position: relative;
+    top: 105px;
+    left: 40px;
+    color: #ffffff;
+}
+
+.form h1{
+    margin-bottom: 20px;
+}
+
+.form input{
+    margin-bottom: 5px;
+}
+
+.form input[type  = "text"]{
+    margin-left: 22px;
+}
+
+.form input[type  = "email"]{
+    margin-left: 50px;
+}
+
+.form input[type  = "password"]{
+    margin-left: 28px;
+}
+
+button{
+    width: 70px;
+    height: 30px;
+    margin-left: 120px;
+    margin-top: 10px;
+    background-color: green;
+    color: white;
+}
